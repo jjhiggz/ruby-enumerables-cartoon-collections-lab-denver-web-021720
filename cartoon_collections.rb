@@ -23,13 +23,14 @@ def long_planeteer_calls(aoc)# code an argument here
   b = aoc.any?  do |n|
      n.length<4
    end
-  # Your code here
+   a = !b
+   return a
 end
 
 
-#def find_the_cheese(array)# code an argument here
+def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 i=0
-#while i<cheese_types.length
-#  array.find
-#end
+while i<cheese_types.length
+  array.find
+end
