@@ -19,8 +19,11 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(aoc)# code an argument here
-binding.pry
-  !aoc.any? {|n| binding.pry n.length<4}
+#binding.pry
+  aoc.any? do |n| 
+    binding.pry
+     n.length<4
+   end
   # Your code here
 end
 
