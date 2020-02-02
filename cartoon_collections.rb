@@ -3,7 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   #binding.pry
 
   array.each_with_index do |v,i|
-    puts "/#{i},*`#{v}`"
+    puts "/#{i+1},*`#{v}`"
   end
 end
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
