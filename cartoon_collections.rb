@@ -20,8 +20,7 @@ end
 
 def long_planeteer_calls(aoc)# code an argument here
 #binding.pry
-  aoc.any? do |n|
-    binding.pry
+  b = aoc.any? do |n|
      n.length<4
    end
   # Your code here
