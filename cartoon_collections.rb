@@ -1,6 +1,13 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)# code an argument here
+  a = array.sort
+  b = array.each do |n|
+    puts n
+  end
+  return b
 end
+array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+
+puts roll_call_dwarves(array)
 
 def summon_captain_planet# code an argument here
   # Your code here
