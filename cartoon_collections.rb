@@ -1,4 +1,5 @@
 def roll_call_dwarves(array)# code an argument here
+  binding.pry
   a = array.sort
   b = array.each do |n|
     puts n
