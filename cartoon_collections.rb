@@ -19,7 +19,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(aoc)# code an argument here
-#binding.pry
+binding.pry
   b = aoc.any? do |n|
      n.length<4
    end
