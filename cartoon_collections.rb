@@ -1,8 +1,9 @@
 require 'pry'
 def roll_call_dwarves(array)# code an argument here
-  binding.pry
+  #binding.pry
   a = array.sort
-  
+  array.each_with_index do |v,i|
+    puts "/#{i},*`#{v}`"
   return b
 end
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
