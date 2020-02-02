@@ -34,8 +34,8 @@ while i<cheese_types.length
   a = array.find do |n|
     n==cheese_types[i]
   end
-  if a 
-    return a 
+  if a
+    return a
   end
   i=i+1
 end
