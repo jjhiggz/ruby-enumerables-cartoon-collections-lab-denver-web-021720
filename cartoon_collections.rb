@@ -23,8 +23,7 @@ def long_planeteer_calls(aoc)# code an argument here
   b = aoc.any?  do |n|
      n.length<=4
    end
-   a = b
-   return a
+   return b
 end
 
 
