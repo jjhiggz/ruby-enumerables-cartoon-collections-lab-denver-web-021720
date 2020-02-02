@@ -26,7 +26,9 @@ binding.pry
   # Your code here
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+#def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-end
+i=0
+#while i<cheese_types.length
+#  array.find
+#end
