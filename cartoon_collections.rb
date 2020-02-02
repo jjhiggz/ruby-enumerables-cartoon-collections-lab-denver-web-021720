@@ -4,6 +4,7 @@ def roll_call_dwarves(array)# code an argument here
   a = array.sort
   array.each_with_index do |v,i|
     puts "/#{i},*`#{v}`"
+    binding.pry
   end
 end
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
