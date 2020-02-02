@@ -34,3 +34,4 @@ i=0
 while i<cheese_types.length
   array.find
 end
+end
