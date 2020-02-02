@@ -19,7 +19,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(aoc)# code an argument here
-  aoc.any? {|n| n.count()<4}
+  aoc.any? {|n| n.length<4}
   # Your code here
 end
 
