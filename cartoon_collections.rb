@@ -12,6 +12,7 @@ puts roll_call_dwarves(array)
 
 def summon_captain_planet(array)# code an argument here
   array.map do |n|
+    binding.pry
     "#{n.capitalize}!"
   end
   array
