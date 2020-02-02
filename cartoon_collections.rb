@@ -32,5 +32,6 @@ def find_the_cheese(array)# code an argument here
 i=0
 while i<cheese_types.length
   array.find
+  i=i+1
 end
 end
